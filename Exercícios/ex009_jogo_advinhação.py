@@ -22,7 +22,7 @@ def script_jogo(player1,player2):
         else:
             verify = False
 
-    # Verificando o número de letras repetidas
+    # Verificando o número de letras não repetidas
     letras_nrepetidas = ''
     for p in range(0,len(palavra_secreta)):
         letra = palavra_secreta[p]
