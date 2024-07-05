@@ -3,25 +3,6 @@ import time
 """Programa Lista de compras"""
 
 lista_de_compras = []
-# adicionando itens na lista
-while True:
-    os.system('cls')
-    produto = input('Digite o produto que deseja comprar:')
-    lista_de_compras.append(produto)
-
-    # verificando se existem mais itens para adicionar
-    # verificando a resposta - tratamento de erros:
-    while True:
-        continuar = input('Deseja inserir mais um produto? [s]im; [n]ão\n->').lower()
-        if continuar.startswith('s') or continuar.startswith('n'):
-            break
-        else:
-            print('Digite "s" ou "n"!')
-            continue   
-    if continuar.startswith('s'):
-        continue
-    else:
-        break   
 # alteração da lista
 while True:
     os.system('cls')
