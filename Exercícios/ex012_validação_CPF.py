@@ -1,4 +1,3 @@
-# Cálculo do primeiro dígito do CPF
 # Extraindo somente os números
 CPF_usuario = input('Informe seu CPF:')
 verificacao = True
@@ -12,7 +11,7 @@ if verificacao:
     for digito in CPF_usuario:
         if digito.isnumeric():
             numeros.append(int(digito))
-
+# Cálculo do primeiro dígito do CPF
     # Armazenando os valores colocados como dígito antes da verificação 
     digito_1 = numeros[9]
     digito_2 = numeros[10]
